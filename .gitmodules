@@ -1,0 +1,9 @@
+[submodule "vim/bundle/ctrlp.vim"]
+	path = vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/bundle/vim-flake8.vim"]
+	path = vim/bundle/vim-flake8.vim
+	url = https://github.com/nvie/vim-flake8.git
+[submodule "vim/bundle/solarized.vim"]
+	path = vim/bundle/solarized.vim
+	url = https://github.com/altercation/vim-colors-solarized.git
