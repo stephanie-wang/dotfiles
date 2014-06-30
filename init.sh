@@ -5,7 +5,7 @@ _done() {
 }
 
 echo "Installing Python dependencies"
-sudo pip install flake8
+pip install flake8
 _done
 
 echo "Initializing git submodules"
