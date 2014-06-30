@@ -8,6 +8,7 @@ filetype plugin indent on
 syntax enable
 colorscheme desert
 if isdirectory($HOME . '/.vim/bundle/solarized.vim')
+    set t_Co=256
     set background=dark
     colorscheme solarized
 endif
