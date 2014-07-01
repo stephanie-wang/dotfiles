@@ -1,0 +1,13 @@
+# Always show the status line. Display tabs in status line.
+hardstatus alwayslastline
+hardstatus string "%{= g} %{= w}%-Lw%{=r}%n%f* %t%{-}%+LW"
+
+# Use preferred shell.
+shell -$SHELL
+
+# Ctrl-k and Ctrl-j to scroll back and forward.
+defscrollback 10000                  # Save this many lines in scrollback buffer
+bindkey "^k" eval "copy" "stuff ^b"
+bindkey "^j" eval "copy" "stuff ^f"
+bindkey -m "^k" stuff ^b
+bindkey -m "^j" stuff ^f

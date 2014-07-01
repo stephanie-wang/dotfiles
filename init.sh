@@ -16,4 +16,5 @@ _done
 echo "Copying dotfiles"
 cp -R vim ~/.vim
 cp vim/vimrc ~/.vimrc
+cp screenrc ~/.screenrc
 _done
