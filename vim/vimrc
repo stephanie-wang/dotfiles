@@ -38,3 +38,6 @@ map <Tab> <C-W>w
 " <Enter> for word-completion.
 set completeopt=longest,menuone
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+
+" Padding between cursor and number of lines on screen
+set scrolloff=5
