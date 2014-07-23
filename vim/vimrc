@@ -45,5 +45,5 @@ set scrolloff=5
 " Ignore .git, virtualenv, etc for CTRL-P file searching.
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/](\.(git|hg|svn)|env)$',
-  \ 'file': '\v\.(exe|so|dll)$',
+  \ 'file': '\v\.(exe|so|dll|pyc)$',
   \ }
