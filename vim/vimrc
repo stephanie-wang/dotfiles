@@ -47,3 +47,6 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/](\.(git|hg|svn)|env)$',
   \ 'file': '\v\.(exe|so|dll|pyc)$',
   \ }
+
+" On command line, expand %% to full path of current file's directory
+cabbr <expr> %% expand('%:p:h')
