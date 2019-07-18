@@ -13,7 +13,9 @@ if isdirectory($HOME . '/.vim/bundle/solarized.vim')
     colorscheme solarized
 endif
 
+set cursorline
 set tabstop=4 shiftwidth=4 expandtab smarttab
+autocmd FileType cpp setlocal shiftwidth=2 tabstop=2 comments=b:///,sO:*\ -,mO:*\ \ ,exO:*/,s1:/*,mb:*,ex:*/,://
 set nocompatible
 set autoindent
 set showcmd
